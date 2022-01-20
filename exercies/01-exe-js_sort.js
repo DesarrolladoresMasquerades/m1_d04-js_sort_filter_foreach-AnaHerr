@@ -4,9 +4,18 @@
 // DO NOT mutate the original array
 const arrOfStrings = ['cat', 'wolf', 'yo', 'animal'];
 
-const longestStr = (arr) => {
-   //your code...
-}
+const longestStr = (arrOfStrings) => {
+
+   function sortWordsByLength( word1, word2){
+      
+   }
+     arrOfStrings.sort(el1, el2) {
+     if(el1.length > el2.length) return 1
+     if(el1.length === el2.length) return 0
+     if(el1.length < el2.length) return -1
+     }
+   }
+  
 
 let longestStrings = longestStr(arrOfStrings)
 console.log(longestStrings)
